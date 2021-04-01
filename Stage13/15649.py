@@ -1,6 +1,5 @@
 def get_number(current):
     global N, M
-
     if len(current) == M:
         for n in current:
             print(n, end=' ')
