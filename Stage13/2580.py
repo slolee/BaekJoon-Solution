@@ -28,14 +28,6 @@ def check_sdoku(zero_numbers, j):
     return True
 
 
-def is_clear(numbers):
-    for i in range(9):
-        for j in range(9):
-            if numbers[i][j] == 0:
-                return False
-    return True
-
-
 def solution(start, result):
     global zero_numbers, numbers
 
