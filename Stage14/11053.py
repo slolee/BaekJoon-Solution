@@ -7,5 +7,4 @@ for i in range(len(A)):
         if A[i] > A[j]:
             dp[i] = max(dp[i], dp[j] + 1)
 
-print(dp)
 print(max(dp))
