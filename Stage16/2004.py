@@ -1,11 +1,8 @@
 def div_number(k, n):
-    print('=== ', k, n, ' ===')
     count = 0
     while k != 0:
-        print(k)
         k = k // n
         count += k
-    print(count)
     return count
 
 
